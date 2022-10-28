@@ -16,6 +16,10 @@ const Links = () => {
       <a href="https://books.zuri.team/design-rules" className="btn btn-lg border-0 rounded w-100 py-3 mb-3" id="book__design">
         <span className="fw-semibold">Design Books</span>
       </a>
+      <div className="d-flex justify-content-center p-3 gap-3">
+        <img src="slack.png" alt="slack-logo" />
+        <img src="git.png" alt="git-logo" />
+      </div>
     </div>
   );
 }
