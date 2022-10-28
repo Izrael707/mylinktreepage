@@ -10,6 +10,10 @@ html{
   border-radius: 275px;
 }
 
+#profile__img:hover {
+  filter: brightness(60%);
+}
+
 #share-icon {
   position: absolute;
   right: 15%;

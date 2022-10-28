@@ -1,6 +1,6 @@
 const Links = () => {
   return (
-    <div className="text-center p-3">
+    <div className="text-center p-3 p-xl-5">
       <a href="https://training.zuri.team/" target="_blank" rel="noreferrer" className="btn btn-lg rounded w-100 py-3 mb-3" id="btn__zuri">
         <span className="fw-semibold">Zuri Team</span>
       </a>
