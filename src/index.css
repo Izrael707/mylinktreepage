@@ -1,19 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html{
+  font-family: 'Roboto', sans-serif;
+}
+
 #profile__img {
   width: 88px;
   height: 88px;
   border-radius: 275px;
 }
 
-#share-logo {
+#share-icon {
   position: absolute;
   right: 15%;
 }
 
-#dots-logo {
+#more-icon {
   position: absolute;
   right: 5%;
 }
 
 .border-gray {
   border-top: 2px solid #e9e9e1;
+}
+
+a.btn {
+  background-color: #e9e9e1;
 }
