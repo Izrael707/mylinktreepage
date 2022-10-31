@@ -5,13 +5,15 @@ html{
 }
 
 #profile__img {
+  background-image: url(/public/profile-img.png);
+  background-repeat: no-repeat;
   width: 88px;
   height: 88px;
   border-radius: 275px;
 }
 
 #profile__img:hover {
-  filter: brightness(60%);
+  background-image: url(/public/Profilr-hover.png);
 }
 
 #share-icon {
