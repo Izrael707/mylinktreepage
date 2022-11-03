@@ -10,6 +10,7 @@ html{
   width: 88px;
   height: 88px;
   border-radius: 275px;
+  cursor: pointer;
 }
 
 #profile__img:hover {
@@ -19,11 +20,13 @@ html{
 #share-icon {
   position: absolute;
   right: 15%;
+  cursor: pointer;
 }
 
 #more-icon {
   position: absolute;
   right: 5%;
+  cursor: pointer;
 }
 
 .border-gray {
