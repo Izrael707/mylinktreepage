@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Links = () => {
   return (
     <div className="text-center p-3 p-xl-5">
@@ -16,6 +18,9 @@ const Links = () => {
       <a href="https://books.zuri.team/design-rules" target="_blank" rel="noreferrer" className="btn btn-lg border-0 rounded w-100 py-3 mb-3" id="book__design">
         <span className="fw-semibold">Best Free Design Book from Zuri</span>
       </a>
+      <Link to="/contact" className="btn btn-lg border-0 rounded w-100 py-3 mb-3" id="contact">
+        <span className="fw-semibold">Contact me</span>
+      </Link>
       <div className="d-flex justify-content-center p-3 gap-3">
         <img src="slack.png" alt="slack-logo" />
         <img src="git.png" alt="git-logo" />
